@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward" />
+
     
 </head>
 <body>
@@ -43,22 +45,22 @@
     <!--Section Regles-->
     <section class="regles">
         <div class="wrapper">
-            <article>
-                <h3>Quels guillemets choisir pour le Web ?</h3>
+            <article class="start">
                 <p class="cercle">«</p>
+                <h3>Quels guillemets choisir pour le Web ?</h3>
+            </article>
+            
+            <article class="end">
+                <h3>Qu’est-ce qu’un espace insécable ? &nbsp</h3>
+                <p class="cercle">&ampnbsp</p>
             </article>
 
-            <article>
-                <h3>Qu’est-ce qu’un espace insécable ?</h3>
-                <p class="cercle">&nbsp</p>
-            </article>
-
-            <article>
-                <h3>S’occuper de la veuve et de l’orphelin. </h3>
+            <article class="start">
                 <p class="cercle">Windows</p>
+                <h3>S’occuper de la veuve et de l’orphelin. </h3>
             </article>
 
-            <article>
+            <article class="end">
                 <h3>Et la hauteur de ligne dans tout ça ?</h3>
                 <p class="cercle">line-height</p>
             </article>
@@ -69,10 +71,12 @@
     <!--Section Info-->
     <section class="info">
         <div class="wrapper">
-            <p>Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une <strong>police sans sérif</strong> (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices,<strong>Google Font</strong> s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.</p>
+            <div class="infoTexte">
+                <p>Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une <strong>police sans sérif</strong> (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices,<strong>Google Font</strong> s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.</p>
 
-            <p> <span>Test à faire en dernier :</span> <br>
-                Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième article. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).</p>
+                <p> <span>Test à faire en dernier :</span> <br>
+                    Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième &lt;article&gt;. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).</p>
+            </div>
         </div>
     </section>
 
@@ -81,6 +85,9 @@
     <footer>
         <div class="wrapper">
             <h4>La typographie</h4>
+            <div class="arrowBox">
+                <a href=""><span class="material-symbols-outlined">arrow_upward</span></a>
+            </div>
         </div>
     </footer>
 

@@ -1,0 +1,229 @@
+/*-------------------------------------------------
+BASE
+-------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+/*-------------------------------------------------
+ÉLEMENTS
+-------------------------------------------------*/
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto";
+
+    font-size: 20px;
+}
+
+
+/*-------------------------------------------------
+COMPONENTS
+-------------------------------------------------*/
+
+/*Header*/
+
+header{
+    height: 200px;
+    background-color: #34495E;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-family: "Roboto";
+    font-size: 93px;
+    font-weight: 900;
+    letter-spacing: 36%;
+    margin: 0;
+}
+
+/*Section Slogan*/
+
+.slogan{
+    height: 230px;
+    display: flex;
+    text-align: end;  
+}
+
+.slogan h2{
+    font-family: "Lato";
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 5.5%;
+
+    margin: 0;
+    margin-top: 81px;
+}
+
+/*Section regles*/
+
+.regles{
+    display: grid;
+ 
+    height: 1062px;
+
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.regles article:hover{
+    background-color: #BDC3C7;
+}
+
+.regles article{
+    height: 230px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-bottom: 32px;
+
+}
+
+.start{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 7px 50px;
+}
+
+.end{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 7px 50px;
+}
+
+.start h3{
+    padding-left: 70px;
+}
+
+.end h3{
+    padding-right: 50px;
+}
+
+
+
+.cercle{
+    background-color: white;
+    color: #D35400;
+    border: #D35400 solid 5px;
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regles p{
+    font-family: "Quicksand";
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5;
+    margin: 0;
+}
+
+.regles h3{
+    font-family: "Quicksand";
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+/*Section Info*/
+
+.info{
+    margin-bottom: 40px;
+}
+
+.infoTexte{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.info p{
+    width: 471px;
+    height: 345px;
+    margin: 0;
+    line-height: 40px;
+}
+
+span{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.info p{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*Footer*/
+
+footer{
+    height: 100px;
+    background-color: #2980b9;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    height: 24px;
+}
+
+.arrowBox{
+    background-color:#FFFFFF;
+    border: #BDC3C7 solid 3px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+footer h4{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
